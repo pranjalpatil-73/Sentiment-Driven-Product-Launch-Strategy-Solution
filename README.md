@@ -16,7 +16,7 @@ Companies often launch products that fail because they don’t understand consum
 
  3 Brand damage.
 
-** By analyzing customer sentiment**, we can:
+ **By analyzing customer sentiment , we can:**
 
  . Identify key issues before launch.
 
@@ -54,10 +54,10 @@ Columns Used:
 
  Score: Rating provided by the user (1 to 5).
 
-Summary: Review headline.
+**Summary: Review headline.**
 
-Text: Review body.
-Code Implementation
+ Text: Review body.
+ Code Implementation
 The code is implemented in Python and follows these steps:
 
 Import Libraries: Import necessary libraries for data processing, visualization, and NLP.
@@ -126,7 +126,7 @@ Install the required libraries using the following command:
 pip install pandas numpy matplotlib seaborn scikit-learn textblob nltk wordcloud
 
 
-Run the Code:
+  Run the Code:
 
 Open the Python script in your IDE or Jupyter Notebook.
 
@@ -138,22 +138,23 @@ Visualizations will be displayed in the console or as plots.
 
 The analyzed data will be saved as analyzed_reviews.csv.
 
-Future Enhancements
-Advanced Sentiment Analysis:
+**Future Enhancements**
 
-Use pre-trained models like VADER or BERT for more accurate sentiment classification.
+1 Advanced Sentiment Analysis:
 
-Interactive Visualizations:
+  Use pre-trained models like VADER or BERT for more accurate sentiment classification.
 
-Use Plotly or Dash for interactive visualizations.
+2 Interactive Visualizations:
 
-Advanced Topic Modeling:
+  Use Plotly or Dash for interactive visualizations.
 
-Use Non-Negative Matrix Factorization (NMF) or BERTopic for more advanced topic modeling.
+3 Advanced Topic Modeling:
 
-Deployment:
+  Use Non-Negative Matrix Factorization (NMF) or BERTopic for more advanced topic modeling.
 
-Deploy the solution as a web app using Flask or Streamlit.
+4 Deployment:
+
+  Deploy the solution as a web app using Flask or Streamlit.
 
 
-Impact Analysis: Highlight the potential business impact of the recommendations.
+**Impact Analysis: Highlight the potential business impact of the recommendations.**
