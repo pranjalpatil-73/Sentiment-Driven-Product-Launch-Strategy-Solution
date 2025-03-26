@@ -2,52 +2,57 @@
 Analyzed Amazon reviews using NLP to identify sentiment &amp; key complaints. Provided data-driven product adjustments to avoid failures. Business Impact: Prevented flops, boosted customer adoption, increased revenue, enhanced brand reputation. #DataScience #NLP #BusinessImpact
 
 
-Project Overview
+**Project Overview**
+
 This project aims to help companies avoid failed product launches by analyzing customer sentiment from product reviews. Using Natural Language Processing (NLP) techniques, we identify key complaints, feature requests, and unmet needs. Based on this analysis, we provide actionable recommendations for product adjustments before launch.
 
-Business Problem
+**Business Problem**
+
 Companies often launch products that fail because they don’t understand consumer sentiment. This leads to:
 
-Wasted resources.
+ 1 Wasted resources.
 
-Poor customer adoption.
+ 2 Poor customer adoption.
 
-Brand damage.
+ 3 Brand damage.
 
-By analyzing customer sentiment, we can:
+** By analyzing customer sentiment**, we can:
 
-Identify key issues before launch.
-Make data-driven product adjustments.
+ . Identify key issues before launch.
 
-Improve customer satisfaction and adoption.
+ .  Make data-driven product adjustments.
 
-Solution Approach
-Data Collection: Use the Amazon Product Reviews dataset from Kaggle.
+ . Improve customer satisfaction and adoption.
 
-Data Cleaning: Handle missing values, remove duplicates, and preprocess text.
+**Solution Approach**
 
-Exploratory Data Analysis (EDA): Visualize rating distribution and frequent words.
+ Data Collection: Use the Amazon Product Reviews dataset from Kaggle.
 
-Sentiment Analysis: Classify reviews as positive, negative, or neutral.
+ Data Cleaning: Handle missing values, remove duplicates, and preprocess text.
 
-Topic Modeling: Identify key topics in negative reviews using Latent Dirichlet Allocation (LDA).
+ Exploratory Data Analysis (EDA): Visualize rating distribution and frequent words.
 
-Business Recommendations: Provide actionable insights for product adjustments.
+ Sentiment Analysis: Classify reviews as positive, negative, or neutral.
 
-Impact Analysis: Highlight the potential business impact of the recommendations
+ Topic Modeling: Identify key topics in negative reviews using Latent Dirichlet Allocation (LDA).
 
-Dataset
+ Business Recommendations: Provide actionable insights for product adjustments.
+
+ Impact Analysis: Highlight the potential business impact of the recommendations
+
+**Dataset**
+
 The dataset used in this project is the Amazon Fine Food Reviews dataset from Kaggle. It contains 568,454 food reviews from Amazon up to October 2012.
 
 Dataset Link: Amazon Product Reviews Dataset
 
 Columns Used:
 
-ProductId: Unique identifier for the product.
+ ProductId: Unique identifier for the product.
 
-UserId: Unique identifier for the user.
+ UserId: Unique identifier for the user.
 
-Score: Rating provided by the user (1 to 5).
+ Score: Rating provided by the user (1 to 5).
 
 Summary: Review headline.
 
